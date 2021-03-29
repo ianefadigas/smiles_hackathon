@@ -1,0 +1,106 @@
+<link rel="stylesheet" href="css/lateral.css">
+<link rel="stylesheet" href="css/chat.css">
+<link rel="stylesheet" href="css/MinhasViagens.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<div id="barra_lateral">
+    <img id="notificacao" src="images/notificacao.svg">
+    <div class="circ">
+        <img  id='perfil'src='images/perfil.jpg'>
+    </div>
+    <p class= 'nome'>Vanessa Cabral</p>
+    <p class= 'milhas'>300 milhas</p>
+    <div id='options'>
+        <div class="opção">
+            <img class="imagem_de_opção"src="images/user.png">
+            <a class="opções">Meu Perfil</a>
+        </div>
+        <div class="opção">
+            <img class="imagem_de_opção" src="images/briefcase.svg">
+            <a class="opções">Mihas Viagens</a>
+        </div>
+        <div class="opção">
+            <img class="imagem_de_opção" src="images/users.png">
+            <a class="opções">Meus Grupos</a>
+        </div>
+        <div class="opção">
+            <img class="imagem_de_opção"src="images/to-do-list 1.svg">
+            <a class="opções">Etapas da Viagem</a>
+        </div>
+        <div class="opção">
+            <img class="imagem_de_opção" src="images/help.svg">
+            <a class="opções" >Ajuda</a>
+        </div>
+        <div class="opção">
+            <img class="imagem_de_opção" src="images/tools.svg">
+            <a class="opções">Configurações</a>
+        </div>
+        <div class="opção">
+            <img class="imagem_de_opção"src="images/sair.svg">
+            <a class="opções">Sair</a>
+        </div>        
+        <button id="nova_viagem">NOVA VIAGEM</button>
+    </div>
+</div>
+
+<div id ="espaço_do_chat">
+    <button id='btt' type ="button" onclick="frac()">
+       <div id='con_Mila'>
+           <img id= "mini_Mila" src="images/Mila.png">
+       </div> Mila
+       <img id= "lupa" src="images/lupa.svg">
+    </button>
+    <div id="chat">
+            <div class="primeira_mensagem"> Olá! Eu sou a Mila, sua assistente de viagens. Vamos nessa?</div>
+            <div class="mensagem_esquerda">Vamos começar uma nova viagem?</div>
+            <div class="mensagem_esquerda">Ou você já tem uma viagem programada?</div>
+            <div class="mensagem_direita">Vamos</div>
+            <form>
+                <input type="text">
+            </form>
+    </div> 
+</div>
+
+<div id="centrum">
+    <img  id="propaganda" src="images/5 1.jpg">
+    <p id="meu_grupo">Minhas Viagens</p>
+
+    <div id="grupos">
+        <div class="grupo" id="gruita">
+           <img class="img_de_grupo" src="images/santorini-416136_1920 1.svg">
+            <h7 class="prox">Próxima viagem</h7> 
+            <h7 class="título">Grécia</h7>   
+            <h7 class="data">01/01/2022</h7>    
+            <h7 class = 'bot zerum'>EDITAR</h7> 
+            <h7 class = 'bot dois'>CANCELAR</h7> 
+        </div>
+         <div class="grupo" id="grufra">            
+            <img class="img_de_grupo" id="imgpar" src="images/eiffel-tower-3349075_1920 1.svg">
+            <h7 class="prox">Próxima viagem</h7> 
+            <h7 class="título">Grécia</h7>   
+            <h7 class="data">01/01/2022</h7>    
+            <h7 class = 'bot zerum'>EDITAR</h7> 
+            <h7 class = 'bot dois'>CANCELAR</h7> 
+        </div>
+    </div>
+    <h7 class = 'editar'>Viagens anteriores</h7> 
+    <img  id="istambul"src="images/Group 683.jpg">
+    <h7 class="alterar">Altere foto em destaque</h7>
+    <div id ="contedor_txt">
+        <h7 id ="notif">Personalize com sua melhor foto de viagem!</h7>
+    </div>
+
+</div>
+
+<script>
+    var int =1
+    function frac(){
+        if(int%2 == 0){
+        console.log('é')
+          document.getElementById("chat").style.height = "calc( 100vh - 178px - min(104px,10.93vw))"
+          int++
+        }else{
+            document.getElementById("chat").style.height = "0px"
+            int++}
+    }
+</script>

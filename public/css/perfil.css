@@ -1,0 +1,120 @@
+#Micase{
+    display: block;
+    height: fit-content;
+    width: 224px;
+}
+
+#espaço_branco{
+   height: 120px;
+   width: 102px;
+   display: block;
+   background-color: #FFFFFF;
+   margin:auto;
+   border-radius: 5px;
+   padding-bottom: 6px;
+   padding-top: 12px;
+}
+
+.rox{
+    font-family: 'Nunito', sans-serif;
+    color: #5D3189;
+    font-size: 12px;
+    font-weight: bold;
+    margin:auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+#n{
+    color: #7B7B7B !important;
+    margin:auto;   
+    position: relative;
+}
+
+#l{
+    font-family: 'Nunito', sans-serif;
+    color: #FF5A00;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin:auto;
+    width: fit-content;
+}
+
+#m{
+    font-family: 'Nunito', sans-serif;
+    color: #FF5A00;
+    font-size: 12px;
+    font-weight: bold;
+    margin:auto;
+    width: fit-content; 
+}
+
+#meu_perfil{
+    font-family: 'Nunito', sans-serif;
+    color: #FF5A00;
+    font-size: 24px;
+    font-weight: bold;
+    margin:auto;
+    width:fit-content;
+    margin-bottom: 16px;
+}
+
+#circ1{
+    margin-bottom: 8px;
+}
+ 
+#t{
+    margin-top: 17px;
+}
+
+
+#dados{
+    position: static !important;
+    background-color:#E5E5E5 !important;
+    height: fit-content  !important;
+    width:200px !important;;
+    display: block !important;;
+}
+
+.dadosin{
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    color:rgba(123, 123, 123, 0.1);
+    font-size: 12px;
+    font-weight: normal;
+    border-radius: 8px;
+    border-width: 0px;
+    padding:0px 10px  0px 10px!important;
+    background-color:white  !important;
+    height: 22px !important;
+    width: 180px !important;
+    margin-bottom: 20px  !important;
+    margin-top: 5px !important;
+}
+
+#altsenha{
+    margin-top: 20px !important;
+    margin-left: 0px  !important;
+}
+
+#altmail{
+    margin-top: 9px !important;
+    
+    margin-left: 0px  !important;
+}
+
+
+label{ 
+  position: relative;
+  left:8px;
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700px;
+}
+
+#Milasentada{
+    position: absolute;
+    bottom:0px;
+    right:min(306px, calc(76.32vw - 30px))
+}

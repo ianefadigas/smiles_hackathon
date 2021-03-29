@@ -1,0 +1,76 @@
+#contedor_da_mila{
+    background-color: #FCE200;
+    width: min(328px,36vw);
+    height: min(328px,36vw);
+    border-radius:min(174px,18vw);
+    left:min(83px,10%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+
+   
+
+#contedor_de_texto{
+    display: block;
+    width: fit-content;
+    position: relative;
+    left:min(500px , calc(10% + 40vw));
+    bottom:25px;
+
+}
+
+#mila{
+    position: relative;
+    left: max(10px,4.48vw);
+    bottom: min(50px,8vw);
+    width: min(328px, 36vw)
+}
+
+p{
+    color: #5D3189;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.grande{
+    font-size: min(64px,4vw);
+}
+.menor{
+    font-size: min(48px,3vw);
+}
+
+.description{
+    margin-top: min(28px, 0.875vw);
+    color: rgba(123, 123, 123, 1);
+    font-size: min(24px,1.5vw);
+    width: min(500px,37vw)
+}
+#Vamos_la{
+    color: #FFFF ;
+    background-color: #FF5A00;
+    font-size: min(18px, 2.8vw);
+    right: auto !important;
+    margin-top: min(28px, 1.75vw);
+    width: min(200px,12.5vw);
+    height: 50px;
+    font-size: min(18px,1.125vw);
+    border-radius: min(50px, 3.125vw);
+}
+
+#Vamos_la:focus, #Vamos_la:hover{
+    background-color: #5D3189;
+     outline: 0px;
+}
+
+#Vamos_la:active{
+    color:#5D3189;
+    background-color: #FFFFFF;
+    border-style:none;
+}
+    
+
+    

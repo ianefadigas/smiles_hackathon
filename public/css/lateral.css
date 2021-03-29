@@ -1,0 +1,85 @@
+#barra_lateral{
+    padding-top: min(125px,2.97vw);
+    position: relative;
+    display: block;
+    background-color: #FFFFFF;
+    height: calc(100% - min(125px,2.97vw));
+    width: min(341px,23.68vw);
+}
+
+.imagem_de_opção{
+    width: min(24px, 12vw);
+    height: min(24px, 12vw);
+}
+#notificacao{
+    position:absolute;
+    right: 0px;
+    top:min(38px,2.97vw);
+    width: max(20px, 3vw);
+    height: max(20px, 3vw)
+}
+
+.opções{
+    font-size: min(18px, 2.4vw);
+    color: rgba(123, 123, 123, 1);
+}
+
+#perfil{
+    position: relative;
+    width:min(87px, 6.41vw);
+    left:min(7.5px, 0.8vw);
+    top:min(7.5px, 0.8vw);
+    border-radius: min(43.5px,3.205vw);
+}
+
+.circ{
+    width: min(102px,7.98vw);
+    height: min(102px,7.98vw);
+    border-radius: min(51px,3.99vw);
+    border: solid #5D3189;
+    border-width: 2px;
+}
+
+#nova_viagem{
+    height: min(50px,5.5vh);
+    max-width:none !important;
+    max-height:none !important;
+    width: min(170px, 23vw) !important;
+    color: #FFFF ;
+    background-color: #FF5A00;
+    font-size: min(16px, 2.4vw);
+    border-radius: mini(50px, 5.5vh);
+    font-weight: bold;
+    border-width: 0px;
+    position: static  !important;
+    right: auto !important
+}
+
+ .circ,#options, #perfil, #nova_viagem, .nome, .milhas {
+    margin: auto;
+}
+
+.opção{
+    position: relative;
+    width: fit-content;
+}
+.nome{
+    font-weight: bold;
+    font-size: min(24px,3.2vw);
+    color:#5D3189;
+}
+
+.milhas{
+    font-weight: lighter;
+    font-size: min(13px,1.73vw);;
+    color: #FF5A00;
+}
+
+.milhas, .nome{
+    width: fit-content;
+    font-family:'Nunito', sans-serif;
+}
+
+#options{
+    width: fit-content;
+}

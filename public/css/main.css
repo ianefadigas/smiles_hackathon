@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    background-color: rgba(123,123,123, 0.1);
+    height: 100%;
+    min-height: 100%;
+}
+
+header{
+    background-color: rgba(255, 90, 0, 1);
+    color: #5D3189;
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+    height: 83px;
+    z-index: 3;
+    max-height: 10%;
+}
+
+button{
+    height: 50px;
+    width: 135px;
+    max-height: 25%;
+    max-width: 25%;
+    font-weight: bold;
+    border-width: 0px;
+    font-size: 18px;
+    border-radius: 50px;
+    position: absolute;
+    right: min(135px, 10%);
+}
+
+button:focus{
+    outline:0px;
+}
+
+#logo_superior{
+    color:#5D3189;
+    position: absolute;
+    font-size: 2em;
+    position: relative;
+    left:min(235px,20%);
+}
+
+
+#entrar{
+    color: #5D3189 ;
+    background-color: #FFFFFF;
+}
+
+#entrar:hover, #entrar:focus{
+    color: #FFFFFF;
+    background-color: #5D3189;
+    outline: 0px;
+}
+
+#entrar:active{
+    color: #FFFFFF;
+    background-color: rgba(255, 90, 0, 1);
+    border-style:none;
+}
+
+
+footer{
+    background-color: rgba(123, 123, 123, 1);
+    position: fixed;
+    width: 100%;
+    bottom:0px;
+    max-height: 16%;
+    height: 95px;
+    padding-right:min(135px, 10%);
+    padding-left:min(235px, 20%);
+}
+
+a { 
+    color: white;    
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#big{
+    font-size: min(36px,5vw);
+}
+
+#small{
+    font-size: min(18px,2.5vw);}
+
+#redes_sociais{
+    display: flex;
+    justify-content: space-evenly;
+    width:min(208px , 40%)
+}
+
+.botão_de_rede_social{
+    position: static !important;
+    background-color: rgba(123, 123, 123, 1) ;
+    border-radius: 0px;
+    padding: 0px;
+    border-width: 0px;
+    width: 24px;
+    height: 24px;
+}
+#identificação{
+    display: block;
+}
+
+#logo_da_smiles{
+    position: relative;
+    top:9px;
+    width: min(88px, calc(calc(5vw/36)*88));
+}
+
+#disclaimer{
+    font-size: 1vw;
+}
+
+.info{
+    font-family: 'Roboto', sans-serif;
+    font-size: min(18px, 1vw);
+    color:white;
+    position: fixed;
+    right: min(135px,10%);
+}
+
+.infor{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: calc(50% - 25vw);
+    bottom: 0px;
+}
+
+
+#contatos{
+    position: fixed;
+    right: min(135px,10%);
+    bottom: min(13%, 60px);
+}
+#numero{    
+    bottom: min(6%, 55px);
+}
+
+#center{
+    position: relative;
+    background-color: rgba(123,123,123, 0.1);
+    height:calc( 100vh - 178px);
+    display: flex;
+    align-items: center;
+}
+

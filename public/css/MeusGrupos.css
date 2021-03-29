@@ -1,0 +1,115 @@
+#meu_perfil{
+    font-family: 'Nunito', sans-serif;
+    color: #FF5A00;
+    font-size: 24px;
+    font-weight: bold;
+    margin:0 !important;
+    width:fit-content;
+    margin-bottom: 0  !important;
+}
+
+.img_de_grupo{
+    left:20px;
+    position: relative;
+    top:10px;
+    width: 100px;
+    height: 87.365px;
+    margin: auto;
+}
+
+.grupo{
+    background-color: #FFFF;
+    width: 140px;
+    border-radius: 8px;
+    height: 190px;
+    position: relative;
+}
+
+#gruita, #grupar{
+margin-right: 10px;
+}
+#grupos{
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    left: 64px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(123, 123, 123, 0.1);
+}
+
+#centrum{
+ display: block;
+ height: 100%;
+ background-color: rgba(123, 123, 123, 0.1);
+ width:100%;
+}
+
+#conversa{
+    width: 334.8px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;;
+    left:380.2px}
+
+#meu_grupo{
+        font-family: 'Nunito', sans-serif;
+        color: #FF5A00;
+        font-size: 24px;
+        position: relative;
+        font-weight: bold;
+        width:fit-content;
+        margin-bottom: 16px;
+        left:64px;
+    }
+
+#nova_grupo{
+        height: min(50px,5.5vh);
+        max-width:none !important;
+        max-height:none !important;
+        width: min(170px, 23vw) !important;
+        color: #FFFF ;
+        background-color: #FF5A00;
+        font-size: min(16px, 2.4vw);
+        border-radius: mini(50px, 5.5vh);
+        font-weight: bold;
+        border-width: 0px;
+        margin-top: 8px;
+        position: relative  !important;
+        left:204px;
+        right: auto !important;
+}
+
+h7{
+  display: block;  
+}
+
+.tipo, .describe, .título{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left:20px;
+    top:10px;
+}
+
+.tipo{
+    color: #FF5A00;
+}
+
+.tipo, .describe{
+    font-size: 10px;
+}
+
+.título{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.editar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    position: absolute;
+    left:50px;
+    bottom: 10px;
+    color:  #5D3189;;
+}
