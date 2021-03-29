@@ -37,10 +37,10 @@ p{
 }
 
 .grande{
-    font-size: min(64px,4vw);
+    font-size: min(36px,4vw);
 }
 .menor{
-    font-size: min(48px,3vw);
+    font-size: min(24px,3vw);
 }
 
 .description{
